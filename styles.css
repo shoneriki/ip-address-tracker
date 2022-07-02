@@ -18,6 +18,12 @@ body {
   color: white;
 }
 
+.upper-banner h1 {
+  font-size: 1.5em;
+  padding: 16px 0;
+  
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
