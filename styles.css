@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --font-family:'Rubik', sans-serif;;
 }
 
 body {
@@ -9,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: var(--font-family);
 }
 
 .upper-banner {
@@ -33,7 +40,7 @@ body {
   border: none;
   width: 30%;
   border-radius: 12px 0 0 12px;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   color: white;
@@ -52,6 +59,12 @@ form button {
   cursor: pointer;
   padding:8px 16px;
 }
+
+.map-info {
+  position: relative;
+}
+
+
 
 
 footer {
