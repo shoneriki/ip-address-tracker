@@ -65,15 +65,12 @@ form button {
 }
 
 
-
-
 footer {
   position: fixed;
-  font-size: 11px;
-  text-align: center;
+  font-size: 10px;
   bottom: 8px;
-
 }
-.attribution a {
+
+footer a {
   color: hsl(228, 45%, 44%);
 }
