@@ -9,21 +9,56 @@ body {
 }
 
 .upper-banner {
-  background-image: url("images/pattern-bg.png") ;
-  background-position: center;
+  padding: 1rem 1.5rem;
+  background-image: url(../images/pattern-bg.png);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  height: 20vh;
   text-align: center;
+  height: 40vh;
+  width: 100%;
   color: white;
 }
 
 .upper-banner h1 {
   font-size: 1.5em;
-  padding: 16px 0;
-  
+  padding: 8px 8px;
+}
+
+#ipAddressInput {
+  padding: 1rem 1.25rem;
+  border: none;
+  width: 30%;
+  border-top-left-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+form {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+form button {
+  border: none;
+  background-color: hsl(0, 0%, 17%);
+  border-top-right-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+  cursor: pointer;
+  padding:8px 16px;
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 8px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
