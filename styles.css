@@ -5,22 +5,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .header{
   background-image: url("images/pattern-bg.png");
   background-size: 100%;
+  width: 100%;
+  height: 40%;
   text-align: center;
   padding: 20px 20px 150px 20px;
   position: relative;
 }
+
 .header h1{
   color: white;
 }
+
 .search-container{
   display: flex;
   padding: 16px 0;
+  justify-content: center;
 }
+
 .header .search-container input{
-  width: 84%;
+  width: 48%;
   padding: 16px;
   margin-right: 0;
   border-top-left-radius: 20px;
@@ -39,22 +52,22 @@
   margin-left: 0;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
 
-}
 .box-container{
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-    border-radius: 10px;
-    position: absolute;
-    width: 90%;
-    z-index: 1;
-    /* top: 20px; */
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+  position: absolute;
+  width: 90%;
+  z-index: 1;
+  /* top: 20px; */
 }
-.map-info {
-  position: relative;
-  font-size: 1rem;
+.ip-container, .location-container, .time-container, .isp-container{
+    padding-bottom: 15px;
+    line-height: 1.5;
 }
 
 
