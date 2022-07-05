@@ -10,32 +10,35 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-
-  <div class="upper-banner">
-    <h1>
-      IP Address Tracker
-    </h1>
-    <div class="search">
-      <input type="text" name="" id="input">
-      <img src="images/icon-arrow.svg" alt="" id="search-btn">
+  <div class="container">
+    <div class="header">
+      <h1>IP Address Tracker</h1>
+      <div class="search-container">
+        <input type="text" name="" id="input">
+        <img src="images/icon-arrow.svg" alt="" srcset="" id="search-btn" onclick="searchIp()">
+      </div>
+      <div class="box-container">
+        <div class="ip-container">
+          <p>IP ADDRESS</p>
+          <h2 class="ip">111.111.111.111</h2>
+        </div>
+        <div class="location-container">
+          <p>LOCATION</p>
+          <h2 class="location">Tokyo, Japan</h2>
+        </div>
+        <div class="time-container">
+          <P>TIMEZONE</P>
+          <h2 class="time">UTC+09:00</h2>
+        </div>
+        <div class="isp-container">
+          <p>ISP</p>
+          <h2 class="isp">Puppies</h2>
+        </div>
+      </div>
     </div>
-    <div class="info-container">
-      <div class="ip-container">
-        <p>IP ADDRESS</p>
-        <h2 class="ip">111.111.111.111</h2>
-      </div>
-      <div class="location-container">
-        <p>LOCATION</p>
-        <h2 class="location">Tokyo, JP</h2>
-      </div>
-      <div class="time-container">
-        <p>TIMEZONE</p>
-        <h2 class="time">UTC+09:00</h2>
-      </div>
-      <div class="isp-container">
-        <p>ISP</p>
-        <h2 class="isp">Stars</h2>
-      </div>
+    <div class="map-container">
+      <!-- <img src="images/image-gallery-milkbottles.jpg" alt="" srcset=""> -->
+      <div id="map"></div>
     </div>
   </div>
 
