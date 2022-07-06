@@ -45,6 +45,7 @@ body {
   border: none;
   outline: none;
 }
+
 .header img{
   background-color: black;
   width: 74px;
@@ -63,7 +64,7 @@ body {
   position: absolute;
   width: 90%;
   z-index: 1;
-  /* top: 20px; */
+  margin-left: 4rem;
 }
 .ip-container, .location-container, .time-container, .isp-container{
     padding-bottom: 15px;
