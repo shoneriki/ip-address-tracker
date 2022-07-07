@@ -60,6 +60,13 @@ body {
   border-bottom-right-radius: 20px;
 }
 
+.outer-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 78px;
+}
+
 .box-container{
   background-color: white;
   color: black;
@@ -74,9 +81,15 @@ body {
   justify-content: space-around;
 }
 
-h2 {
+.box-h2 {
   font-weight: 700;
   color: var(--lighter-gray);
+}
+
+.box-p {
+  font-size: 32px;
+  font-weight: 700;
+  display: inline-block;
 }
 .ip-container, .location-container, .time-container, .isp-container{
   padding-bottom: 15px;
