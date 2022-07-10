@@ -15,54 +15,46 @@
     crossorigin=""></script>
 </head>
 <body>
-
-    <div class="header">
-      <h1>IP Address Tracker</h1>
-      <div class="search-container">
-        <input type="text" name="" id="input">
-        <img src="images/icon-arrow.svg" alt="" srcset="" id="search-btn" onclick="searchIp()">
+  <header>
+    <div class="title">
+      <h1 class="app_title">IP Address Tracker</h1>
+    </div>
+    <div class="searchBar">
+      <input class="ip_input" type="text" placeholder="Search for any IP address or domain">
+      <button class="search_button"><b>></b></button>
+    </div>
+    <div class="info_section">
+      <div class="ip info_wrapper">
+        <h2>IP ADDRESS</h1>
+          <h3 class="ip_address">-
+        </h2>
       </div>
-      <div class="outer-box">
-        <div class="box-container">
-          <div class="ip-container">
-            <h2 class="box-h2">IP ADDRESS</h2>
-            <p id='ip' class="box-p ip">111.111.111.111</p>
-          </div>
-          <div class="vertical-line">
-            <div class="line"></div>
-          </div>
-          <div class="location-container">
-            <h2 class="box-h2">LOCATION</h2>
-            <p id='location' class="box-p location">Tokyo, Japan, 10011</p>
-          </div>
-          <div class="vertical-line">
-            <div class="line"></div>
-          </div>
-          <div class="time-container">
-            <h2 class="box-h2">TIMEZONE</h2>
-            <p id='time' class="box-p time">UTC+09:00</p>
-          </div>
-          <div class="vertical-line">
-            <div class="line"></div>
-          </div>
-          <div class="isp-container">
-            <h2 class="box-h2">ISP</h2>
-            <p id='isp' class="box-p isp">Puppies</p>
-          </div>
-        </div>
+      <div class="location info_wrapper">
+        <h2>LOCATION</h1>
+          <h3 class="location_value">-
+        </h2>
+      </div>
+      <div class="time_zone info_wrapper">
+        <h2>TIMEZONE</h1>
+          <h3 class="time_zone_value">-
+        </h2>
+      </div>
+      <div class="isp info_wrapper">
+        <h2>ISP</h1>
+          <h3 class="isp_value">-
+        </h2>
       </div>
     </div>
-    <div class="map-container">
-      <div id="map"></div>
-    </div>
+  </header>
+  <main>
+    <div id="map"></div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
 
-
-    <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
